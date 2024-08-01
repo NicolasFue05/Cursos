@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma de Cursos Interactiva</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Curses</h1>
+    </header>
+    <div id="searchbar">
+        <h1>Buscar Curso</h1>
+        <input type="text" id="searchBar">
+    </div>
+    <div id="searchbar">
+        <h1>Agregar Curso</h1>
+        <label for="name">Nombre</label>
+        <input type="text" id="name"><br><br>
+        <label for="Image">Cargar Imagen</label>
+        <input type="file" id="Image"><br><br>
+        <label for="description">Descripcion</label>
+        <input type="text" id="description"><br><br>
+        <label for="price">Precio</label>
+        <input type="number" id="price"><br><br>
+        <button style="background-color: black; color: #fff" id="sendCurse">Enviar</button>
+    </div>
+    <div class="container-list">
+        <div id="container-curses">
+            <div class="curse-container" id="natacion">
+                <div id="container-image">
+                    <!--Aqui deberia ir una imagen que se le pide al usuario en javascript (no se pone ninguna imagen default pero en cambia se recrea el contenedor de esta misma)-->
+                </div>
+                <div id="container-name">Curso Natacion</div>
+                <div id="container-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid explicabo, corporis doloremque
+                    dolorum veniam nemo? Repellat ducimus odio est saepe nobis, explicabo nemo quisquam illum fugiat,
+                    rerum provident architecto facilis.
+                </div>
+                <button id="eliminatebtn">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAKVJREFUSEvtlcsRgDAIRDedaCdaipVYiqVoKXaiMmNyIIObj7klN0V4C0xch8bHNa4PBpgAbAAGQ8gJYAFwWEIZYH+SBfJ1BDKWAq430RLC4nRErACLRwCfULv70LFuvTnAK6etqxbN74uX9zdAK2TPgZ/aAStYPaIOiO5V7kj6DuivqXpEjJANSDEaDRVXm/VL6yaLi60JbubrmdbJLJONhsabA25OJTgZ1vxrLQAAAABJRU5ErkJggg=="/>
+                </button>
+            </div>
+
+            <div class="curse-container" id="futbol">
+                <div id="container-image"></div>
+                <div id="container-name">Curso Futbol</div>
+                <div id="container-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid explicabo, corporis doloremque
+                    dolorum veniam nemo? Repellat ducimus odio est saepe nobis, explicabo nemo quisquam illum fugiat,
+                    rerum provident architecto facilis.
+                </div>
+                <button id="eliminatebtn">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAKVJREFUSEvtlcsRgDAIRDedaCdaipVYiqVoKXaiMmNyIIObj7klN0V4C0xch8bHNa4PBpgAbAAGQ8gJYAFwWEIZYH+SBfJ1BDKWAq430RLC4nRErACLRwCfULv70LFuvTnAK6etqxbN74uX9zdAK2TPgZ/aAStYPaIOiO5V7kj6DuivqXpEjJANSDEaDRVXm/VL6yaLi60JbubrmdbJLJONhsabA25OJTgZ1vxrLQAAAABJRU5ErkJggg=="/>
+                </button>
+            </div>
+
+            <div class="curse-container" id="cocina">
+                <div id="container-image"></div>
+                <div id="container-name">Curso Cocina</div>
+                <div id="container-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid explicabo, corporis doloremque
+                    dolorum veniam nemo? Repellat ducimus odio est saepe nobis, explicabo nemo quisquam illum fugiat,
+                    rerum provident architecto facilis.
+                </div>
+                <button id="eliminatebtn">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAKVJREFUSEvtlcsRgDAIRDedaCdaipVYiqVoKXaiMmNyIIObj7klN0V4C0xch8bHNa4PBpgAbAAGQ8gJYAFwWEIZYH+SBfJ1BDKWAq430RLC4nRErACLRwCfULv70LFuvTnAK6etqxbN74uX9zdAK2TPgZ/aAStYPaIOiO5V7kj6DuivqXpEjJANSDEaDRVXm/VL6yaLi60JbubrmdbJLJONhsabA25OJTgZ1vxrLQAAAABJRU5ErkJggg=="/>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
